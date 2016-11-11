@@ -1,0 +1,19 @@
+###DOL实例分析&编程
+
+####一、改完的*.dot截图 
+*1.修改example2，让3个square模块变成2个
+![ss](https://cloud.githubusercontent.com/assets/22741656/20216598/8216ec7a-a856-11e6-985b-6a853a92691b.jpg)
+
+*2.修改example1，使其输出3次方数：
+![www](https://cloud.githubusercontent.com/assets/22741656/20216632/a2d94b42-a856-11e6-896c-6bd0ca5e75f3.jpg)
+
+####二、实验思路
+*1 修改example2，从PPT可以看出其实有3个square模块是通过迭代来连接的，我们需要减少一个square,于是把value改成2就OK了。成功结果如图：
+![aa](https://cloud.githubusercontent.com/assets/22741656/20216643/b6ecddd8-a856-11e6-8e33-a01260d09056.png)
+
+*2 example 1的代码定义的就是0到20的平方数，所以在square函数里增加一个*i，改成i=i∗i∗i就可以实现了。
+
+![asss](https://cloud.githubusercontent.com/assets/22741656/20216673/d234fb48-a856-11e6-84ab-be10f5cdbfd0.png)
+
+####三、实验感想
+本次实验内容结合PPT比较好理解，但是在修改代码时经常不经意就进错路径，这也提醒我在修改代码之后需要重新编译运行一下。实验主要让我理解使模块与模块之间的连接，通道与连接这些问题，收获很大
